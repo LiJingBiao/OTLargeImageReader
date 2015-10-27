@@ -30,7 +30,7 @@
  *
  *  @param filePath     The large file to read.
  *  @param maxPixelSize The max pixel size of the two edges of the image.
- *  @param imageSize    If you already know the size of image, pass it to here. Otherwise pass CGSizeZero. \n If pass CGSizeZero, this method will read the EXIF info for image size.
+ *  @param imageSize    If you already know the size of original image, pass it to here. Otherwise pass CGSizeZero. \n If pass CGSizeZero, this method will read the EXIF info for image size.
  *
  *  @return The result thumbnail. Nil if generate thumbnail failed.
  */
@@ -42,7 +42,7 @@
  *
  *  @param filePath     The large file to read.
  *  @param maxPixelSize The max pixel size of the two edges of the image.
- *  @param imageSize    If you already know the size of image, pass it to here. Otherwise pass CGSizeZero. \n If pass CGSizeZero, this method will read the EXIF info for image size.
+ *  @param imageSize    If you already know the size of original image, pass it to here. Otherwise pass CGSizeZero. \n If pass CGSizeZero, this method will read the EXIF info for image size.
 
  *  @param callback     The callback of result image. Pass nil if generate thumbnail failed.
  */
@@ -53,7 +53,7 @@
  *
  *  @param filePath     The large file to read.
  *  @param minPixelSize The min pixel size of the two edges of the image.
- *  @param imageSize    If you already know the size of image, pass it to here. Otherwise pass CGSizeZero. \n If pass CGSizeZero, this method will read the EXIF info for image size.
+ *  @param imageSize    If you already know the size of original image, pass it to here. Otherwise pass CGSizeZero. \n If pass CGSizeZero, this method will read the EXIF info for image size.
  *
  *  @return The result thumbnail. Nil if generate thumbnail failed.
  */
@@ -65,7 +65,7 @@
  *
  *  @param filePath     The large file to read.
  *  @param minPixelSize The min pixel size of the two edges of the image.
- *  @param imageSize    If you already know the size of image, pass it to here. Otherwise pass CGSizeZero. \n If pass CGSizeZero, this method will read the EXIF info for image size.
+ *  @param imageSize    If you already know the size of original image, pass it to here. Otherwise pass CGSizeZero. \n If pass CGSizeZero, this method will read the EXIF info for image size.
  
  *  @param callback     The callback of result image. Pass nil if generate thumbnail failed.
  */
